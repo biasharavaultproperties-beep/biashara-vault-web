@@ -38,10 +38,12 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="cta" size="lg" className="gap-2">
-              <Phone className="w-4 h-4" />
-              Book Site Visit
-            </Button>
+            <a href="tel:+254721660966">
+              <Button variant="cta" size="lg" className="gap-2">
+                <Phone className="w-4 h-4" />
+                Book Site Visit
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -67,10 +69,12 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="cta" size="lg" className="mt-4 mx-4 gap-2">
-                <Phone className="w-4 h-4" />
-                Book Site Visit
-              </Button>
+              <a href="tel:+254721660966" className="mx-4">
+                <Button variant="cta" size="lg" className="mt-4 w-full gap-2">
+                  <Phone className="w-4 h-4" />
+                  Book Site Visit
+                </Button>
+              </a>
             </div>
           </div>
         )}

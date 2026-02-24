@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const DiasporaBanner = () => {
-  const whatsappNumber = "254700000000";
+  const whatsappNumber = "254704308435";
   const whatsappMessage = encodeURIComponent("Hello! I'm interested in investing in land from abroad. Please share more details.");
 
   return (
@@ -26,8 +26,8 @@ const DiasporaBanner = () => {
               Investing from Abroad?
             </h2>
             <p className="text-primary-foreground/80 text-lg max-w-xl">
-              We understand the unique needs of Kenyans abroad. Our dedicated diaspora team 
-              handles everything—from virtual site tours to secure payment processing and 
+              We understand the unique needs of Kenyans abroad. Our dedicated diaspora team
+              handles everything—from virtual site tours to secure payment processing and
               title deed delivery to your doorstep.
             </p>
           </div>

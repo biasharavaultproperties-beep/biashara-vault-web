@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <img src={logo} alt="Biashara Vault Properties" className="h-20 w-auto mb-4" />
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Your trusted partner in land investment across Kenya. We deliver verified, 
+              Your trusted partner in land investment across Kenya. We deliver verified,
               title-deed ready plots with complete transparency.
             </p>
           </div>
@@ -49,13 +49,19 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent mt-0.5 shrink-0" />
                 <span className="text-primary-foreground/70">
-                  Westlands Business Park,<br />Nairobi, Kenya
+                  Registered Offices,<br />Nairobi, Kenya
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent shrink-0" />
-                <a href="tel:+254700000000" className="text-primary-foreground/70 hover:text-accent transition-colors">
-                  +254 700 000 000
+                <a href="tel:+254721660966" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                  +254 (0) 721 66 09 66
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-accent shrink-0" />
+                <a href="tel:+254704308435" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                  +254 (0) 0704 30 84 35
                 </a>
               </li>
               <li className="flex items-center gap-3">

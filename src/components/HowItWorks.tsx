@@ -17,8 +17,8 @@ const steps = [
   {
     icon: FileCheck,
     step: "03",
-    title: "Get Your Title Deed",
-    description: "Complete payment and receive your title deed within 14 days. Simple, transparent, secure.",
+    title: "Complete the Process",
+    description: "Our lawyers draw the requisite agreement & conveyancing documents. Make payment and receive your title processed. Simple, transparent, secure.",
   },
 ];
 

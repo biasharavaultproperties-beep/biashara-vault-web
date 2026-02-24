@@ -4,6 +4,7 @@ import FeaturedProperties from "@/components/FeaturedProperties";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
 import MissionVision from "@/components/MissionVision";
+import AboutUs from "@/components/AboutUs";
 import Locations from "@/components/Locations";
 import Testimonials from "@/components/Testimonials";
 import NewsUpdates from "@/components/NewsUpdates";
@@ -20,6 +21,7 @@ const Index = () => {
       <WhyChooseUs />
       <HowItWorks />
       <MissionVision />
+      <AboutUs />
       <Locations />
       <Testimonials />
       <NewsUpdates />
