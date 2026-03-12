@@ -1,5 +1,7 @@
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
-import logo from "@/assets/logo.png";
+
+// Use public folder logo as primary
+const logo = "/logo.png";
 
 const Footer = () => {
   return (
