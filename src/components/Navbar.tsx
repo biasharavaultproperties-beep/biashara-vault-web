@@ -24,7 +24,6 @@ const Navbar = () => {
             src="/easter-banner.png"
             alt="Early Bird Easter Offer – Kasarani plots at 12 million. Save 3 million. Six months payment plan."
             className="w-full h-auto block"
-            style={{ maxHeight: "120px", objectFit: "cover", objectPosition: "top" }}
           />
         </a>
       </div>
