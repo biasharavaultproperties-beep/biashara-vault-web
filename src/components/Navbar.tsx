@@ -18,13 +18,13 @@ const Navbar = () => {
   return (
     <>
       {/* Promotional Banner */}
-      <div className="w-full bg-forest-dark overflow-hidden" style={{ maxHeight: "80px" }}>
+      <div className="w-full bg-forest-dark">
         <a href="tel:+254721660966">
           <img
             src="/easter-banner.png"
             alt="Early Bird Easter Offer – Kasarani plots at 12 million. Save 3 million. Six months payment plan."
-            className="w-full block object-cover object-top"
-            style={{ height: "80px" }}
+            className="w-full h-auto block"
+            style={{ maxHeight: "120px", objectFit: "cover", objectPosition: "top" }}
           />
         </a>
       </div>
