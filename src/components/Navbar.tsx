@@ -31,10 +31,10 @@ const Navbar = () => {
       {/* Main Navbar */}
       <nav className="sticky top-0 left-0 right-0 z-50 bg-primary shadow-lg">
         <div className="container-wide mx-auto px-4">
-          <div className="flex items-center justify-between h-16 md:h-20">
+          <div className="flex items-center justify-between h-12 md:h-14">
             {/* Logo */}
             <a href="#" className="flex items-center gap-2">
-              <img src={logo} alt="Biashara Vault Properties" className="h-12 md:h-16 w-auto rounded-lg" />
+              <img src={logo} alt="Biashara Vault Properties" className="h-8 md:h-10 w-auto rounded-lg" />
             </a>
 
             {/* Desktop Navigation */}
@@ -53,8 +53,8 @@ const Navbar = () => {
             {/* CTA Button */}
             <div className="hidden md:flex items-center gap-4">
               <a href="tel:+254721660966">
-                <Button variant="cta" size="lg" className="gap-2">
-                  <Phone className="w-4 h-4" />
+                <Button variant="cta" size="sm" className="gap-1.5 text-sm">
+                  <Phone className="w-3.5 h-3.5" />
                   Book Site Visit
                 </Button>
               </a>
