@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Use public folder logo as primary, with assets as fallback
 const logo = "/logo.png";
 
 const Navbar = () => {
@@ -17,71 +16,85 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg">
-      <div className="container-wide mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="Biashara Vault Properties" className="h-12 md:h-16 w-auto rounded-lg" />
-          </a>
+    <>
+      {/* Promotional Banner */}
+      <div className="w-full bg-forest-dark">
+        <a href="tel:+254721660966">
+          <img
+            src="/easter-banner.png"
+            alt="Early Bird Easter Offer – Kasarani plots at 12 million. Save 3 million. Six months payment plan."
+            className="w-full h-auto max-h-20 object-cover object-center"
+          />
+        </a>
+      </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-primary-foreground/90 hover:text-accent transition-colors text-sm font-medium"
-              >
-                {link.name}
-              </a>
-            ))}
-          </div>
-
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+254721660966">
-              <Button variant="cta" size="lg" className="gap-2">
-                <Phone className="w-4 h-4" />
-                Book Site Visit
-              </Button>
+      {/* Main Navbar */}
+      <nav className="sticky top-0 left-0 right-0 z-50 bg-primary shadow-lg">
+        <div className="container-wide mx-auto px-4">
+          <div className="flex items-center justify-between h-16 md:h-20">
+            {/* Logo */}
+            <a href="#" className="flex items-center gap-2">
+              <img src={logo} alt="Biashara Vault Properties" className="h-12 md:h-16 w-auto rounded-lg" />
             </a>
-          </div>
 
-          {/* Mobile Menu Toggle */}
-          <button
-            className="md:hidden text-primary-foreground p-2"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden pb-4 animate-fade-in">
-            <div className="flex flex-col gap-2">
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-primary-foreground/90 hover:text-accent py-2 px-4 rounded transition-colors"
-                  onClick={() => setIsOpen(false)}
+                  className="text-primary-foreground/90 hover:text-accent transition-colors text-sm font-medium"
                 >
                   {link.name}
                 </a>
               ))}
-              <a href="tel:+254721660966" className="mx-4">
-                <Button variant="cta" size="lg" className="mt-4 w-full gap-2">
+            </div>
+
+            {/* CTA Button */}
+            <div className="hidden md:flex items-center gap-4">
+              <a href="tel:+254721660966">
+                <Button variant="cta" size="lg" className="gap-2">
                   <Phone className="w-4 h-4" />
                   Book Site Visit
                 </Button>
               </a>
             </div>
+
+            {/* Mobile Menu Toggle */}
+            <button
+              className="md:hidden text-primary-foreground p-2"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
-        )}
-      </div>
-    </nav>
+
+          {/* Mobile Navigation */}
+          {isOpen && (
+            <div className="md:hidden pb-4 animate-fade-in">
+              <div className="flex flex-col gap-2">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-primary-foreground/90 hover:text-accent py-2 px-4 rounded transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.name}
+                  </a>
+                ))}
+                <a href="tel:+254721660966" className="mx-4">
+                  <Button variant="cta" size="lg" className="mt-4 w-full gap-2">
+                    <Phone className="w-4 h-4" />
+                    Book Site Visit
+                  </Button>
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
+      </nav>
+    </>
   );
 };
 

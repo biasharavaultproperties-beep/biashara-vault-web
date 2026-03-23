@@ -44,8 +44,8 @@ const AboutUs = () => {
                             Biashara Vault (BV) are realtors consulting services provider that supports its clients'
                             land ownership &amp; development objectives by providing specialized services in the areas
                             of growth and project management, joint ventures, commission agents buying and selling on
-                            behalf. Our core specialization is procurement of capital for enterprise. We are a smart
-                            one-stop shop for enterprise capital solutions.
+                            behalf. We are a smart one-stop shop for investment solutions. Our core specialization is
+                            creating true generational wealth.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
                             BV provides unmatched professional assistance in every stage of the process. BV is well
@@ -98,7 +98,7 @@ const AboutUs = () => {
                             </div>
                             <p className="text-muted-foreground text-sm leading-relaxed">
                                 BV has a great pool of experienced associates and a talent pool; which synergies we
-                                exploit having been first registered in <strong>2016</strong> as a consultancy. From
+                                exploit having been first registered in <strong>2017</strong>. From
                                 developing comprehensive development models, concept notes, to locating ideal locations
                                 for pristine living, commercial development, and any intensive farming — we are the
                                 one-stop shop for all your land ownership needs, including turn-key projects.

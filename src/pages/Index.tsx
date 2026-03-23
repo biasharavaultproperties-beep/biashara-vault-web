@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
 import MissionVision from "@/components/MissionVision";
 import AboutUs from "@/components/AboutUs";
+import KasaraniProperty from "@/components/KasaraniProperty";
 import Locations from "@/components/Locations";
 import Testimonials from "@/components/Testimonials";
 import NewsUpdates from "@/components/NewsUpdates";
@@ -22,6 +23,7 @@ const Index = () => {
       <HowItWorks />
       <MissionVision />
       <AboutUs />
+      <KasaraniProperty />
       <Locations />
       <Testimonials />
       <NewsUpdates />

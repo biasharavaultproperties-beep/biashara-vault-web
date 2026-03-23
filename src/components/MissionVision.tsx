@@ -32,9 +32,8 @@ const MissionVision = () => {
             </div>
             <h3 className="text-xl font-bold mb-4">Our Mission</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              To democratize land ownership in Kenya by providing verified, 
-              title-deed ready plots at affordable prices, making property 
-              investment accessible to every Kenyan, whether home or abroad.
+              To ease land ownership in Kenya by providing verified, title-deed ready plots at affordable prices,
+              making property investment accessible to every Kenyan, whether home or abroad.
             </p>
           </motion.div>
 
@@ -51,9 +50,8 @@ const MissionVision = () => {
             </div>
             <h3 className="text-xl font-bold mb-4">Our Vision</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              To be Kenya's most trusted real estate partner, known for 
-              transparency, integrity, and excellence in land investment 
-              solutions for generations to come.
+              To be Kenya's most trusted wealth managers, inspiring our investors to generate, compound,
+              and enjoy their wealth by also investing in the TRUE WEALTH……. HEALTH!
             </p>
           </motion.div>
 
@@ -70,9 +68,8 @@ const MissionVision = () => {
             </div>
             <h3 className="text-xl font-bold mb-4">Our Values</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Integrity in every transaction. Transparency at every step. 
-              Customer satisfaction as our priority. Building lasting 
-              relationships based on trust and mutual respect.
+              Integrity in every transaction. Transparency at every step.
+              Impacting people to healthy living. Building pristine living spaces that inspire healthy &amp; holistic lifestyles.
             </p>
           </motion.div>
         </div>
