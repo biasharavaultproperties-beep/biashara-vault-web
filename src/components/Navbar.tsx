@@ -18,12 +18,12 @@ const Navbar = () => {
   return (
     <>
       {/* Promotional Banner */}
-      <div className="w-full bg-forest-dark">
+      <div className="w-full bg-forest-dark overflow-hidden">
         <a href="tel:+254721660966">
           <img
             src="/easter-banner.png"
             alt="Early Bird Easter Offer – Kasarani plots at 12 million. Save 3 million. Six months payment plan."
-            className="w-full h-auto max-h-20 object-cover object-center"
+            className="w-full block h-auto"
           />
         </a>
       </div>
