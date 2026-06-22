@@ -54,12 +54,16 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="cta" size="lg" className="text-base px-8">
-              Explore Properties
-            </Button>
-            <Button variant="outline" size="lg" className="text-base px-8 bg-white/10 border-white/30 text-white hover:bg-white/20">
-              Book a Site Visit
-            </Button>
+            <a href="#properties">
+              <Button variant="cta" size="lg" className="text-base px-8">
+                Explore Properties
+              </Button>
+            </a>
+            <a href="/book-site-visit">
+              <Button variant="outline" size="lg" className="text-base px-8 bg-white/10 border-white/30 text-white hover:bg-white/20">
+                Book a Site Visit
+              </Button>
+            </a>
           </motion.div>
 
           {/* Trust Indicators */}

@@ -74,9 +74,11 @@ const PropertyCard = ({
           <Button variant="outline" size="sm" className="flex-1 border-forest text-forest hover:bg-forest hover:text-primary-foreground">
             View Details
           </Button>
-          <Button variant="cta" size="sm" className="flex-1">
-            Book Visit
-          </Button>
+          <a href="/book-site-visit" className="flex-1">
+            <Button variant="cta" size="sm" className="w-full">
+              Book Visit
+            </Button>
+          </a>
         </div>
       </div>
     </motion.div>
