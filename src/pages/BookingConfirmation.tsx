@@ -96,8 +96,8 @@ const BookingConfirmation = () => {
                 <div className="bg-forest-light text-primary-foreground rounded-xl p-6">
                   <Mail className="w-6 h-6 text-accent mb-3 mx-auto" />
                   <h3 className="font-semibold mb-2">Email Us</h3>
-                  <a href="mailto:info@biasharavault.co.ke" className="text-accent hover:underline text-sm break-all">
-                    info@biasharavault.co.ke
+                  <a href="mailto:info@bvpke.com" className="text-accent hover:underline text-sm break-all">
+                    info@bvpke.com
                   </a>
                 </div>
               </div>

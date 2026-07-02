@@ -37,10 +37,10 @@ This booking was submitted through bvpke.com
     const emailSubject = `Site Visit Booking - ${formData.name}`;
     
     // Open Gmail with pre-filled content
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@biasharavault.co.ke&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@bvpke.com&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Also create mailto link as fallback
-    const mailtoUrl = `mailto:info@biasharavault.co.ke?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoUrl = `mailto:info@bvpke.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Try Gmail first, fallback to mailto
     window.open(gmailUrl, '_blank');
@@ -218,13 +218,13 @@ This booking was submitted through bvpke.com
                       </div>
                     </a>
 
-                    <a href="mailto:info@biasharavault.co.ke" className="flex items-start gap-4 p-4 bg-card rounded-lg hover:bg-accent/5 transition-colors group">
+                    <a href="mailto:info@bvpke.com" className="flex items-start gap-4 p-4 bg-card rounded-lg hover:bg-accent/5 transition-colors group">
                       <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                         <Mail className="w-5 h-5 text-accent group-hover:text-accent-foreground" />
                       </div>
                       <div>
                         <p className="font-medium text-foreground">Email</p>
-                        <p className="text-accent break-all">info@biasharavault.co.ke</p>
+                        <p className="text-accent break-all">info@bvpke.com</p>
                       </div>
                     </a>
 

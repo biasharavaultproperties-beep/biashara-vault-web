@@ -55,7 +55,7 @@ The following buttons now link to the booking page:
 Both booking and confirmation pages show:
 - Phone: +254 721 660 966
 - Phone: +254 704 308 435
-- Email: info@biasharavault.co.ke
+- Email: info@bvpke.com
 - Office: Nairobi, Kenya
 
 ## 🔗 SEO Updates

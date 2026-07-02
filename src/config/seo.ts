@@ -36,7 +36,7 @@ export const seoConfig = {
         "availableLanguage": ["English", "Swahili"]
       }
     ],
-    "email": "info@biasharavault.co.ke",
+    "email": "info@bvpke.com",
     "sameAs": [
       "https://www.facebook.com/BiasharaVault",
       "https://www.instagram.com/biasharavault",
